@@ -212,7 +212,7 @@ export const projects = [
     title: "Dateing Project",
     image: "images/img1.jpg",
     link: "https://github.com/MSaqib123/Angular_dotNet",
-    demo: "https://abcd-example.com",
+    // demo: "https://github.com/MSaqib123/Angular_dotNet",
     categories: ["API"]
   },
   {
@@ -226,8 +226,7 @@ export const projects = [
     id: "clothbazar",
     title: "ClothBaza MVC 4.8 Project",
     image: "images/logos/clothBazar.png",
-    link: "http://www.sqaclothbazar.somee.com/Shop",
-    demo: "http://www.sqaclothbazar.somee.com/Shop",
+    link: "https://github.com/MSaqib123/ClothBazar",
     categories: ["MVC"]
   },
   {
