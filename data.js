@@ -200,3 +200,63 @@ export const jobs = [
     skills: ["ASP.NET MVC", "Databases", "PHP Core", "C#"]
   }
 ];
+
+
+
+
+
+// data.js
+export const projects = [
+  {
+    id: "dating",
+    title: "Dateing Project",
+    image: "images/img1.jpg",
+    link: "https://github.com/MSaqib123/Angular_dotNet",
+    demo: "https://abcd-example.com",
+    categories: ["API"]
+  },
+  {
+    id: "jwt",
+    title: "JWT Token",
+    image: "images/img1.jpg",
+    link: "https://github.com/MSaqib123/Angular_dotNet",
+    categories: ["API"]
+  },
+  {
+    id: "clothbazar",
+    title: "ClothBaza MVC 4.8 Project",
+    image: "images/logos/clothBazar.png",
+    link: "http://www.sqaclothbazar.somee.com/Shop",
+    demo: "http://www.sqaclothbazar.somee.com/Shop",
+    categories: ["MVC"]
+  },
+  {
+    id: "college",
+    title: "College Management System<br>E-Project Aptech",
+    image: "images/College-Management-System.png",
+    link: "https://github.com/MSaqib123/CollegeManagemementSystem",
+    categories: ["MVCCore"]
+  },
+  {
+    id: "vision",
+    title: "eCommerce Project on Aptech Vission 2022",
+    image: "images/logos/Vision.png",
+    link: "https://msaqib123.github.io/Vission2022/",
+    demo: "https://msaqib123.github.io/Vission2022/",
+    categories: ["Vision"]
+  },
+  {
+    id: "ams",
+    title: "C# Rest APIs Working on AMS_ERP in Evolve",
+    image: "images/logos/evolveAms.png",
+    link: "http://ams.evolveppt.com/",
+    demo: "http://ams.evolveppt.com/",
+    categories: ["evolve"]
+  }
+];
+
+// Auto-extract unique categories
+const allCategories = new Set();
+projects.forEach(p => p.categories.forEach(cat => allCategories.add(cat)));
+
+export const categories = ["all", ...Array.from(allCategories)];
