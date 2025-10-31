@@ -77,6 +77,7 @@ function renderJobs() {
   const timelineWrapper = container.querySelector(".main-timeline");
   if (!timelineWrapper) {
     const wrapper = document.createElement("div");
+    wrapper.style.cssText = "padding:0 !important;";
     wrapper.className = "main-timeline";
     container.appendChild(wrapper);
   }
