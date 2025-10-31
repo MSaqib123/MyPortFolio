@@ -133,3 +133,30 @@ document.addEventListener("DOMContentLoaded", () => {
   renderSkills();
   renderEducation();
 });
+
+
+
+/* =============================================
+   CLEAR COOKIES & CACHE ON STARTUP
+   ============================================= */
+(function clearCookiesAndCache() {
+  // Clear all cookies
+  document.cookie.split(";").forEach((c) => {
+    const eqPos = c.indexOf("=");
+    const name = eqPos > -1 ? c.substr(0, eqPos).trim() : c.trim();
+    document.cookie = `${name}=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/`;
+  });
+
+  // Clear localStorage & sessionStorage (optional, part of "cache")
+  localStorage.clear();
+  sessionStorage.clear();
+
+  // Optional: Force reload without cache (uncomment if needed)
+  // if ('caches' in window) {
+  //   caches.keys().then((names) => {
+  //     names.forEach((name) => caches.delete(name));
+  //   });
+  // }
+
+  console.log("Cookies, localStorage, and sessionStorage cleared on startup.");
+})();
