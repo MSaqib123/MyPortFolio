@@ -98,3 +98,105 @@ export const education = [
     institution: "Beaconhouse School System, Karachi, Pakistan"
   }
 ];
+
+
+
+// =============================================
+// JOBS – FULLY UPDATED WITH YOUR REAL EXPERIENCE
+// =============================================
+export const jobs = [
+  {
+    id: "fiverr",
+    company: "Fiverr, Freelancer",
+    logo: "images/logos/Fiverr-Logo.jpg", // Add your logo
+    title: "Full Stack .NET Developer",
+    description: `
+      I’m a passionate .NET Core MVC and Angular Developer with strong expertise in Azure, Docker, and Microservices architecture      
+      Over the past few years, I’ve built modern, scalable, and secure web applications for clients across different industries. My focus is on clean architecture, performance optimization, and delivering real business value.
+      <b class="text-success">Open to freelance & remote opportunities!</b>
+    `.trim(),
+    location: "Karachi, Pakistan · Remote",
+    duration: "1 Month",
+    startDate: "2025-10-01",
+    endDate: null,
+    link: "https://www.fiverr.com",
+    skills: ["Angular", ".NET Core", "Azure", "Docker", "Microservices"]
+  },
+  {
+    id: "amfco",
+    company: "AMFCO International",
+    logo: "images/logos/amfco_logo.png",
+    title: "Associate Banking Software Developer",
+    description: `
+      Major Duties in Software Development for the Banking Sector<br><br>
+      As a Banking Sector Software Developer, my role involved designing, developing, and maintaining secure and efficient banking applications. Key responsibilities include:<br><br>
+      1. Core Banking System Development & Maintenance<br>
+      2. Security & Compliance<br>
+      3. Data Management & Reporting
+    `.trim(),
+    location: "On-site",
+    duration: "1 yr 5 mos",
+    startDate: "2024-02-01",
+    endDate: "2025-06-30",
+    link: "https://amfco.net/",
+    skills: ["Genexus", "ASP.NET MVC Core", "SQL", "Banking Systems"]
+  },
+  {
+    id: "nebras",
+    company: "Nebras Enterprise Business Solution",
+    logo: "images/logos/nebrasenterprisebusinesssolution_logo.jpg",
+    title: "Associate ERP Developer",
+    description: "Contributed to ERP system enhancements, focusing on business logic, database optimization, and user experience.",
+    location: "On-site",
+    duration: "3 mos",
+    startDate: "2023-12-01",
+    endDate: "2024-02-29",
+    link: "https://www.nebrascorp.com/Insights",
+    skills: ["SQL", "ASP.NET MVC", "ERP Systems"]
+  },
+  {
+    id: "mehran-api",
+    company: "MEHRAN COMMERCIAL ENTERPRISES",
+    logo: "images/logos/mehran_commercial_enterprises_logo.jpg",
+    title: ".Net Rest API Junior Developer",
+    description: "Working Harder to Increase my Progress and Experience at Evolve Mehran Company",
+    location: "Korangi District, Sindh, Pakistan",
+    duration: "2 mos",
+    startDate: "2023-10-01",
+    endDate: "2023-11-30",
+    link: "https://www.mce.com.pk/",
+    skills: ["REST APIs", "Microsoft SQL Server", ".NET Core"]
+  },
+  {
+    id: "mehran-intern",
+    company: "MEHRAN COMMERCIAL ENTERPRISES",
+    logo: "images/logos/mehran_commercial_enterprises_logo.jpg",
+    title: ".net API Internee Developer",
+    description: `
+      Thanks to Mehran Team I have been selected for .NET Internee as API software Internee Developer. Willing to have Nice Working Pack in Future.<br>
+      <i>--- Thanks Aptech Korangi ---</i>
+    `.trim(),
+    location: "Creek, National Industrial Park, Karachi, Pakistan",
+    duration: "6 mos",
+    startDate: "2023-05-01",
+    endDate: "2023-10-31",
+    link: "https://www.mce.com.pk/",
+    skills: ["ASP.NET Web API", ".NET Framework"]
+  },
+  {
+    id: "cartzlink",
+    company: "CARTZ Link",
+    logo: "images/logos/logo-login.png",
+    title: "Asp.Net MVC Intern Developer",
+    description: `
+      I worked as Internship in Cartz was best Experience for me. Got So much experience in Short Amount of Time.<br>
+      It was Good Experience for me to get Touch in Software House.
+    `.trim(),
+    location: "Hybrid",
+    duration: "3 mos",
+    startDate: "2022-11-01",
+    endDate: "2023-01-31",
+    link: "https://cartzlink.com/",
+    skills: ["ASP.NET MVC", "Databases", "PHP Core", "C#"]
+  }
+];
