@@ -53,6 +53,13 @@ function createProjectCard(project) {
        </a>`
     : "";
 
+  const demoLink = project.demoLink
+    ? `<p class="text-danger mb-0 fs-13">Complete Video Demo <a href="${project.demoLink}" target="_blank" rel="noopener">
+         <i class="ti ti-external-link fs-18 text-primary"></i>
+       </a>
+       </p>`
+    : "";
+
   const demoText = project.demo
     ? `http://${new URL(project.demo).host}`
     : "View on GitHub";
@@ -71,6 +78,7 @@ function createProjectCard(project) {
         <h5 class="text-dark fs-18 fw-medium m-0">${project.title}</h5>
         <p class="text-muted mb-0 fs-13">
           ${demoText} ${linkHTML}
+          ${demoLink}
         </p>
       </div>
     </div>

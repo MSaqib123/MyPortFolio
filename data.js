@@ -208,6 +208,15 @@ export const jobs = [
 // data.js
 export const projects = [
   {
+    id: "vision",
+    title: "eCommerce Project on Aptech Vission 2022",
+    image: "images/logos/Vision.png",
+    link: "https://msaqib123.github.io/Vission2022/",
+    demo: "https://msaqib123.github.io/Vission2022/",
+    demoLink:"https://www.youtube.com/watch?v=bklrNFWDZdA",
+    categories: ["Vision"]
+  },
+  {
     id: "dating",
     title: "Dateing Project",
     image: "images/img1.jpg",
@@ -235,14 +244,6 @@ export const projects = [
     image: "images/College-Management-System.png",
     link: "https://github.com/MSaqib123/CollegeManagemementSystem",
     categories: ["MVCCore"]
-  },
-  {
-    id: "vision",
-    title: "eCommerce Project on Aptech Vission 2022",
-    image: "images/logos/Vision.png",
-    link: "https://msaqib123.github.io/Vission2022/",
-    demo: "https://msaqib123.github.io/Vission2022/",
-    categories: ["Vision"]
   },
   {
     id: "ams",
