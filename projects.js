@@ -129,11 +129,11 @@ document.addEventListener("DOMContentLoaded", () => {
   sessionStorage.clear();
 
   // Optional: Force reload without cache (uncomment if needed)
-  // if ('caches' in window) {
-  //   caches.keys().then((names) => {
-  //     names.forEach((name) => caches.delete(name));
-  //   });
-  // }
+  if ('caches' in window) {
+    caches.keys().then((names) => {
+      names.forEach((name) => caches.delete(name));
+    });
+  }
 
   console.log("Cookies, localStorage, and sessionStorage cleared on startup.");
 })();
