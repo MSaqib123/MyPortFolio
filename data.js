@@ -208,6 +208,15 @@ export const jobs = [
 // data.js
 export const projects = [
   {
+    id: "WebDeskEA",
+    title: "WebdeskEA ERP Managment System",
+    image: "images/logos/WebDeskEA.png",
+    link: "http://3.11.106.6/Identity/Account/Login?ReturnUrl=%2F",
+    link: "http://3.11.106.6/Identity/Account/Login?ReturnUrl=%2F",
+    demo: "http://3.11.106.6/Identity/Account/Login?ReturnUrl=%2F",
+    categories: ["MVCCore"]
+  },
+  {
     id: "vision",
     title: "eCommerce Project on Aptech Vission 2022",
     image: "images/logos/Vision.png",
