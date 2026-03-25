@@ -233,13 +233,11 @@ export const projects = [
     categories: ["MVCCore"]
   },
   {
-    id: "vision",
-    title: "eCommerce Project on Aptech Vission 2022",
-    image: "images/logos/Vision.png",
-    link: "https://msaqib123.github.io/Vission2022/",
-    demo: "https://msaqib123.github.io/Vission2022/",
-    demoLink:"https://www.youtube.com/watch?v=bklrNFWDZdA",
-    categories: ["Vision"]
+    id: "college",
+    title: "College Management System<br>E-Project Aptech",
+    image: "images/College-Management-System.png",
+    link: "https://github.com/MSaqib123/CollegeManagemementSystem",
+    categories: ["MVCCore"]
   },
   {
     id: "dating",
@@ -247,14 +245,14 @@ export const projects = [
     image: "images/img1.jpg",
     link: "https://github.com/MSaqib123/Angular_dotNet",
     // demo: "https://github.com/MSaqib123/Angular_dotNet",
-    categories: ["API"]
+    categories: ["DotNet API"]
   },
   {
     id: "jwt",
     title: "JWT Token",
     image: "images/img1.jpg",
     link: "https://github.com/MSaqib123/Angular_dotNet",
-    categories: ["API"]
+    categories: ["DotNet API"]
   },
   {
     id: "clothbazar",
@@ -264,11 +262,13 @@ export const projects = [
     categories: ["MVC"]
   },
   {
-    id: "college",
-    title: "College Management System<br>E-Project Aptech",
-    image: "images/College-Management-System.png",
-    link: "https://github.com/MSaqib123/CollegeManagemementSystem",
-    categories: ["MVCCore"]
+    id: "vision",
+    title: "eCommerce Project on Aptech Vission 2022",
+    image: "images/logos/Vision.png",
+    link: "https://msaqib123.github.io/Vission2022/",
+    demo: "https://msaqib123.github.io/Vission2022/",
+    demoLink:"https://www.youtube.com/watch?v=bklrNFWDZdA",
+    categories: ["HTML/CSS-JS"]
   },
   {
     id: "ams",
@@ -276,8 +276,8 @@ export const projects = [
     image: "images/logos/evolveAms.png",
     link: "http://ams.evolveppt.com/",
     demo: "http://ams.evolveppt.com/",
-    categories: ["evolve"]
-  }
+    categories: ["Companies"]
+  },
 ];
 
 // Auto-extract unique categories
