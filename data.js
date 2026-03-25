@@ -76,10 +76,10 @@ export const education = [
   {
     id: "aptech",
     title: "Aptech Diploma of Software Engineering",
-    period: "2018 - 2021",
+    period: "2019 - 2024",
     description:
       "Aptech is a globally recognized IT training institute that offers hands-on software engineering programs with a focus on programming, databases, and web development.",
-    institution: "Aptech Learning Center, Karachi, Pakistan"
+    institution: "Aptech Learning Center, Karachi, Pakistan. I got lat pass Out due to COVID-19"
   },
   {
     id: "intermediate",
@@ -106,22 +106,38 @@ export const education = [
 // =============================================
 export const jobs = [
   {
-    id: "fiverr",
-    company: "Fiverr, Freelancer",
-    logo: "images/logos/Fiverr-Logo.jpg", // Add your logo
-    title: "Full Stack .NET Developer",
+    id: "ciphertronix",
+    company: "CipherTronix",
+    logo: "images/logos/Ciphertronix-with-background.png", // Add your logo
+    title: "STOS Management System Developer",
     description: `
-      I’m a passionate .NET Core MVC and Angular Developer with strong expertise in Azure, Docker, and Microservices architecture      
-      Over the past few years, I’ve built modern, scalable, and secure web applications for clients across different industries. My focus is on clean architecture, performance optimization, and delivering real business value.
-      <b class="text-success">Open to freelance & remote opportunities!</b>
+      STOS Management System for Import/Export containerized tracking system based on WebSocket services.<br><br>
+      Worked on maintenance and enhancement of the complete system with special focus on the Accounting module and WebSocket module.
     `.trim(),
-    location: "Karachi, Pakistan · Remote",
-    duration: "1 Month",
-    startDate: "2025-10-01",
-    endDate: null,
-    link: "https://www.fiverr.com",
-    skills: ["Angular", ".NET Core", "Azure", "Docker", "Microservices"]
+    location: "Karachi, Pakistan",
+    duration: "5 mos",
+    startDate: "2025-11-01",
+    endDate: "2026-03-31",
+    link: "#", // Add company website if available
+    skills: ["WebSocket", "STOS Management System", "Accounting Module", "Container Tracking", "Import/Export Systems"]
   },
+  // {
+  //   id: "fiverr",
+  //   company: "Fiverr, Freelancer",
+  //   logo: "images/logos/Fiverr-Logo.jpg", // Add your logo
+  //   title: "Full Stack .NET Developer",
+  //   description: `
+  //     I’m a passionate .NET Core MVC and Angular Developer with strong expertise in Azure, Docker, and Microservices architecture      
+  //     Over the past few years, I’ve built modern, scalable, and secure web applications for clients across different industries. My focus is on clean architecture, performance optimization, and delivering real business value.
+  //     <b class="text-success">Open to freelance & remote opportunities!</b>
+  //   `.trim(),
+  //   location: "Karachi, Pakistan · Remote",
+  //   duration: "1 Month",
+  //   startDate: "2025-10-01",
+  //   endDate: null,
+  //   link: "https://www.fiverr.com",
+  //   skills: ["Angular", ".NET Core", "Azure", "Docker", "Microservices"]
+  // },
   {
     id: "amfco",
     company: "AMFCO International",
