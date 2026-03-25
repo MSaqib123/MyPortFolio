@@ -267,7 +267,7 @@ export const projects = [
     image: "images/logos/Vision.png",
     link: "https://msaqib123.github.io/Vission2022/",
     demo: "https://msaqib123.github.io/Vission2022/",
-    demoLink:"https://www.youtube.com/watch?v=bklrNFWDZdA",
+    demoLink:"https://youtu.be/k2gfK2M1E14?si=R0zJHDQGoqxse_gm",
     categories: ["HTML/CSS-JS"]
   },
   {
